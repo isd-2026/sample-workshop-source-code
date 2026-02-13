@@ -1,0 +1,37 @@
+# --- Node / React ---
+**/node_modules/
+build/
+dist/
+*.log
+**/cypress/
+
+# --- Python / Flask /Environment ---
+**__pycache__/
+*.pytest_cache/
+*.sqlite3
+*.env
+
+# --- IDE / OS ---
+.vscode/
+
+# local stuffs/under development
+**/explanation.md
+**/db_showall.py
+**/db_showallusers.py
+**/db_projects_allocations.py
+**/db_modify_allocations.py
+**/app.db
+**/db_modify_projects.py
+**/frontend-old/
+**/venv/
+week8/backend/tests/test_app.py
+week9/backend/tests/
+week10/backend/tests/
+week11/backend/tests/
+**/e2e_testrunner/
+**/frontend/tests/unit/
+*_api.sh
+*.test.js
+document_tests/
+*/db_init.py
+**/welcome.py
