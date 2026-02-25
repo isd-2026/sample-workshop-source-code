@@ -81,13 +81,18 @@ cd week9  # or any week folder
 python -m http.server 8000 --directory ./frontend/
 ```
 
-Open your browser at: `http://localhost:8000`
+Open your browser at: `http://127.0.0.1:8000`
 
 ### Run Unit Tests
 
 ```bash
 # Backend tests (no server needed)
 python -m unittest backend/tests/test_app.py
+```
+
+### Run E2E Tests
+``` bash
+python -m unittest frontend/tests/e2e/test_login_e2e.py
 ```
 
 ### Week 11 - React Frontend
