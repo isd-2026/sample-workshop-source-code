@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full viewport height */
+  margin: 0;
+}
+
+h1 {
+  color: blue;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  max-width: 500px;
+  color: grey;
+  margin: 10px auto;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+/* for forms on login.html, register.html */
+.content-container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  text-align: center;
+}
+
+.content-container input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.content-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.content-container button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  display: none; /* hidden by default */
+  color: red;
+  font-size: 0.9em;
+  margin-top: 4px;
+}
