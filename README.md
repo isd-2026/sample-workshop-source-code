@@ -31,7 +31,7 @@ This repository contains progressive weekly exercises for building a **Project M
 
 ```bash
 pip install venv # install python venv module
-python -n venv <virtual-environment-name> # create a virtual environment
+python -m venv <virtual-environment-name> # create a virtual environment
 source /<virtual-environment-name>/Scripts/activate # activate the virtual environment
 deactivate # deactivate the virtual environment
 ```
