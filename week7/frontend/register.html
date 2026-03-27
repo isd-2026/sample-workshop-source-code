@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="content-container">
+      <h1>User Registration Form</h1>
+      <form id="register-form">
+        <table>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td>
+              <input type="text" id="email" name="email" />
+              <small id="email-error" class="error-message"></small>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" id="name" name="name" /></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td>
+              <input type="password" id="password" name="password" />
+              <small id="password-error" class="error-message"></small>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="gender">Gender</label></td>
+            <td><input type="text" id="gender" name="gender" /></td>
+          </tr>
+          <tr>
+            <td><label for="favcol">Favourite Colour</label></td>
+            <td><input type="text" id="favcol" name="favcol" /></td>
+          </tr>
+          <tr>
+            <td><label for="tos">Term of Service</label></td>
+            <td>
+              <input type="checkbox" id="tosCheckbox" name="option1" value="yes" required />
+            </td>
+          </tr>
+          <tr>
+            <td><button type="reset" id="cancel-btn">Cancel</button></td>
+            <td><button type="submit" name="register">Register</button></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <a href="login.html" id="login-link" style="display: none">
+                Already have an account? Login here
+              </a>
+            </td>
+          </tr>
+        </table>
+        <small id="form-error" class="error-message"></small>
+      </form>
+    </div>
+    <script src="register.js"></script>
+  </body>
+</html>
